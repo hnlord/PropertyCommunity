@@ -88,7 +88,7 @@ namespace Keys_Onboarding.Config {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Repositories\PropertyCommunity\Keys_Onboarding\Picture.
+        ///   Looks up a localized string similar to C:\Repositories\PropertyCommunity\Keys_Onboarding\Picture\home.jpg.
         /// </summary>
         internal static string PicturePath {
             get {
