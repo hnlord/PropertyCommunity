@@ -40,7 +40,7 @@ namespace Keys_Onboarding.Pages
             try
             {
                
-
+/*
                 //Edit Mortgage textbox
                 Mortgage.Clear();
                 Thread.Sleep(1000);
@@ -52,7 +52,7 @@ namespace Keys_Onboarding.Pages
                 HomeValue.SendKeys(ExcelLib.ReadData(2, "Home Value"));
                 HomeValue.SendKeys(Keys.Enter);
 
-
+    */
                 //Click on the "Save" button
                 SaveBtn.Click();
                 Thread.Sleep(2000);

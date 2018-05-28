@@ -1,4 +1,5 @@
 ﻿using Keys_Onboarding.Global;
+using Keys_Onboarding.Pages;
 using NUnit.Framework;
 
 namespace Keys_Onboarding.Test
@@ -95,7 +96,18 @@ namespace Keys_Onboarding.Test
                 OwnerProperty obj = new OwnerProperty();
                 obj.AddAProperty();
 
+            }
 
+            //Add A New Inspection Request
+            [Test]
+            public void Sprint1_AddAInspectionRequst()
+            {
+                // Creates a toggle for the given test, adds all log events under it    
+                test = extent.StartTest("Add a inspection request");
+
+                // Create an class and object to call the method
+                OwnerInspections obj = new OwnerInspections();
+                obj.AddANewInspection();
 
             }
 
