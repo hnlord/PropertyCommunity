@@ -100,6 +100,8 @@
     <Compile Include="Global\CommonMethods.cs" />
     <Compile Include="Global\Driver.cs" />
     <Compile Include="Pages\FinanceDetails.cs" />
+    <Compile Include="Pages\OwnerInspections.cs" />
+    <Compile Include="Pages\OwnerInspection_SendRequst.cs" />
     <Compile Include="Pages\PropertyDetails.cs" />
     <Compile Include="Pages\EditProperty.cs" />
     <Compile Include="Pages\Register.cs" />
