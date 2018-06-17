@@ -73,11 +73,12 @@ namespace Keys_Onboarding.Pages
 
                 SaveScreenShotClass.SaveScreenshot(Driver.driver, "Owner Inspection Add New");
 
-             //   string ActualValue = Driver.driver.FindElement(By.XPath("//*[@id='main-content']/section/div[1]/div/div[3]/div/div[1]/div[2]/div[1]/div[1]/a/h3")).Text;
+                //   string ActualValue = Driver.driver.FindElement(By.XPath("//*[@id='main-content']/section/div[1]/div/div[3]/div/div[1]/div[2]/div[1]/div[1]/a/h3")).Text;
 
 
                 //Assert.AreEqual(ExpectedValue, ActualValue);
-
+                OwnerInspection_SendRequst obj = new OwnerInspection_SendRequst();
+                obj.SendRequest();
 
                 if (isOpenedNewInspectionPage)
 

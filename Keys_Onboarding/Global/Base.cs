@@ -53,7 +53,7 @@ namespace Keys_Onboarding.Global
                 Register obj = new Register();
                 obj.Navigateregister();
             }
-            extent = new ExtentReports(ReportPath, false, DisplayOrder.NewestFirst);
+            extent = new ExtentReports(ReportPath, true, DisplayOrder.NewestFirst);
             extent.LoadConfig(Keys_Resource.ReportXMLPath);
         }
 
